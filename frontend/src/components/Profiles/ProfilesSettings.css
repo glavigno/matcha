@@ -1,0 +1,84 @@
+.profiles-filters {
+  background-color: white;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+  border-radius: 15px;
+  width: 70%;
+  margin: auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profiles-filters > * {
+  padding: 25px 10px;
+}
+
+.profiles-filters .ant-select-selection--single,
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active,
+.profiles-filters .ant-select-selection--single:hover {
+  border: 1px solid black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.pf-elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.7em;
+}
+
+.block__slider {
+  width: 80%;
+}
+
+.ant-slider-track {
+  background: black !important;
+}
+
+.ant-slider-handle {
+  border: solid 2px black !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+@media (max-width: 1600px) {
+  .profiles-filters {
+    -ms-grid-row: 1;
+    grid-row: 1;
+    padding: 50px;
+    grid-column: initial;
+    height: initial;
+    width: initial;
+  }
+}
+/*# sourceMappingURL=ProfilesSettings.css.map */

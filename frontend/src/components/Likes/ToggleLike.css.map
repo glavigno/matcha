@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,IAAI;CACb;;AAED,AAAA,IAAI,CAAC;EACH,KAAK,EAAE,OAAO;CACf;;AAED,AAAA,OAAO,CAAC;EACN,KAAK,EAAE,OAAiB;CACzB",
+    "sources": [
+        "ToggleLike.scss"
+    ],
+    "names": [],
+    "file": "ToggleLike.css"
+}

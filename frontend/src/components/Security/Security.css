@@ -1,0 +1,31 @@
+.security__main {
+  height: 50%;
+}
+
+.security__banner {
+  position: absolute;
+  width: 500px;
+}
+
+.security__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 30%;
+}
+
+.security__block button,
+.security__block > span {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=Security.css.map */

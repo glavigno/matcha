@@ -1,0 +1,66 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  overflow: auto;
+  --antd-wave-shadow-color: black !important;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 7rem;
+  bottom: 3rem;
+  overflow: auto;
+}
+
+button.ant-btn:hover {
+  color: black !important;
+  border-color: black !important;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0 !important;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-input:focus,
+.ant-input:hover {
+  -webkit-transition: none !important;
+  transition: none !important;
+  border-color: black !important;
+}
+
+.ant-alert.ant-alert-closable {
+  width: auto;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,29 @@
+.carousel-container {
+  height: 400px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  margin-top: 25px;
+  display: flex;
+  align-content: center;
+}
+
+.img-carousel {
+  display: block;
+}
+
+.slick-slide {
+  display: flex;
+  align-content: center;
+}
+.slick-current {
+  display: flex;
+  align-content: center;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+}

@@ -1,0 +1,21 @@
+.security__main {
+  height: 50%;
+}
+
+.security__banner {
+  position: absolute;
+  width: 500px;
+}
+
+.security__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 30%;
+}
+
+.security__block button,
+.security__block > span {
+  margin-top: 20px;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,KAAK;CACnB;;AAED,AAAA,YAAY,CAAC,KAAK,AAAA,MAAM,CAAC;EACvB,OAAO,EAAE,CAAC;CACX;;AACD,AAAA,YAAY,CAAC,KAAK,CAAC;EACjB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,YAAY,EAAE,IAAI;CACnB",
+    "sources": [
+        "SimpleInput.scss"
+    ],
+    "names": [],
+    "file": "SimpleInput.css"
+}

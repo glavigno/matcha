@@ -1,0 +1,43 @@
+button:focus {
+  outline: 0;
+}
+
+.matcher {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 5%;
+}
+
+.matcher-zone {
+  height: 100%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-container .error-db {
+  width: 100%;
+  height: 70%;
+  max-height: 300px;
+}
+
+.error-db {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-container {
+  margin-top: 25px;
+}
+
+@media (max-width: 1024px) {
+  .matcher-zone {
+    width: 90%;
+  }
+}

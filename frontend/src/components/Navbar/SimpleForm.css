@@ -1,0 +1,16 @@
+.simple-form {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.simple-form > * {
+  margin: 10px 0;
+}
+
+.simple-form button {
+  width: 10rem;
+}

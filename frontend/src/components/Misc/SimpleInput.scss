@@ -1,0 +1,15 @@
+.input-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  grid-column: 4 / 7;
+}
+
+.input-block input:focus {
+  outline: 0;
+}
+.input-block input {
+  border-radius: 5px;
+  height: 2rem;
+  padding-left: 20px;
+}

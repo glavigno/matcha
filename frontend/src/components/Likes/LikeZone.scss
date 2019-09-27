@@ -1,0 +1,55 @@
+.like-container {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.like-container .fa-times {
+  color: rgb(241, 133, 133);
+}
+
+.like-container .fa-heart {
+  padding-top: 5px;
+  color: rgb(166, 208, 160);
+}
+.like-container .circle-around:active {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.like-container .circle-around {
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.circle-around > * {
+  pointer-events: none;
+}
+
+@keyframes like-anim {
+  0% {
+    transform: translateX(0px);
+  }
+
+  25% {
+    transform: translateY(5px) rotate(5deg);
+  }
+  75% {
+    transform: translateY(-5px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.circle-around:hover {
+  animation: like-anim 2s;
+  animation-iteration-count: infinite;
+}

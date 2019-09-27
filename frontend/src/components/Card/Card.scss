@@ -1,0 +1,90 @@
+.card {
+  position: relative;
+  margin: 1% 4%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  color: #000000;
+  border-radius: 0 0 5% 5%;
+  width: 250px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.active-circle {
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: rgb(125, 230, 125);
+  border: 1px solid white;
+  top: -5px;
+  right: -5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.off-circle {
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: #f15454;
+  border: 1px solid white;
+  top: -5px;
+  right: -5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-icon {
+  position: absolute;
+  background-color: transparent;
+  width: 14px;
+  height: 14px;
+  bottom: 15px;
+  right: 15px;
+}
+
+@keyframes card-hover-anim {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.card .bottom-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 250px;
+  }
+}
+.ant-carousel {
+  width: 100%;
+}

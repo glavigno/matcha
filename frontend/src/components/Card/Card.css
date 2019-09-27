@@ -1,0 +1,126 @@
+.card {
+  position: relative;
+  margin: 1% 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f0f0f0;
+  color: #000000;
+  border-radius: 0 0 5% 5%;
+  width: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.active-circle {
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: #7de67d;
+  border: 1px solid white;
+  top: -5px;
+  right: -5px;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.off-circle {
+  z-index: 1;
+  position: absolute;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  background-color: #f15454;
+  border: 1px solid white;
+  top: -5px;
+  right: -5px;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-icon {
+  position: absolute;
+  background-color: transparent;
+  width: 14px;
+  height: 14px;
+  bottom: 15px;
+  right: 15px;
+}
+
+@-webkit-keyframes card-hover-anim {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes card-hover-anim {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.card .bottom-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 250px;
+  }
+}
+
+.ant-carousel {
+  width: 100%;
+}
+/*# sourceMappingURL=Card.css.map */

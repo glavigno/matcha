@@ -1,0 +1,80 @@
+.footer__main {
+  height: 3rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.link,
+.link:hover {
+  color: white;
+}
+
+footer .link.focus {
+  -webkit-animation: bg-color 2s infinite;
+          animation: bg-color 2s infinite;
+}
+
+@-webkit-keyframes bg-color {
+  0% {
+    background-color: #000000;
+  }
+  50% {
+    background-color: #8c8c8c;
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+
+@keyframes bg-color {
+  0% {
+    background-color: #000000;
+  }
+  50% {
+    background-color: #8c8c8c;
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+
+footer .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  background: black;
+  color: white;
+  z-index: 2;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+footer .link:hover {
+  background: #8c8c8c;
+  color: black;
+}
+/*# sourceMappingURL=Footer.css.map */

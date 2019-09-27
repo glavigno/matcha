@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CACxB;;AAED,AAAA,WAAW,GAAG,CAAC,CAAC;EACd,MAAM,EAAE,MAAM;CACf",
+    "sources": [
+        "Authentication.scss"
+    ],
+    "names": [],
+    "file": "Authentication.css"
+}

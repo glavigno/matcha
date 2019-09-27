@@ -1,0 +1,68 @@
+.header-container {
+  display: grid;
+  grid-template-rows: 90% auto;
+}
+
+.nav {
+  height: 7rem;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  grid-row: 1;
+}
+
+.ant-drawer-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-drawer-body > * {
+  margin-bottom: 25px;
+}
+
+.logo {
+  margin-right: auto;
+  height: 5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons h3 {
+  margin: 0;
+}
+
+.buttons i {
+  margin-left: 40px;
+  color: rgb(65, 65, 65) !important;
+}
+
+.nav.buttons a {
+  width: 0;
+}
+
+.line-gradient {
+  grid-row: 2;
+  background: linear-gradient(45deg, black, white);
+  height: 5px;
+  width: 100%;
+}
+
+.line-gradient-hand {
+  position: absolute;
+  background: linear-gradient(45deg, white, black);
+  height: 20px;
+  width: 185px;
+  top: 51px;
+  left: 0px;
+  z-index: 0;
+}
+*/ .ant-btn.ant-btn-link {
+  color: initial !important;
+}
