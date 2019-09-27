@@ -16,7 +16,6 @@
 ![Settings page](./screenshots/second.png)
 ![Search page](./screenshots/third.png)
 ![Search page](./screenshots/fourth.png)
-![Search page](./screenshots/fourth.png)
 ![Matcher page](./screenshots/fifth.png)
 ![Profile page](./screenshots/sixth.png)
 ![Chat page](./screenshots/seventh.png)
