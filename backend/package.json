@@ -18,7 +18,7 @@
     "http": "0.0.0",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "node-vibrant": "^3.1.4",
     "nodemailer": "^6.2.1",
     "nodemon": "^1.19.1",
